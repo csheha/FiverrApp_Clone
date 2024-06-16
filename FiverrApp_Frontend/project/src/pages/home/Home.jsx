@@ -19,7 +19,7 @@ const Home = () => {
 
         <div className="features">
           <div className="container">
-            <div className="item">
+            <div className="item">    {/* left side */}
 
                 <h1>A whole world of freelance services at your fingertips</h1>
 
@@ -57,9 +57,43 @@ const Home = () => {
 
             </div>
 
-            <div className="item">
+            <div className="item"> {/**Right side */}
               
               <video src="./img/video.mp4" controls/>
+
+            </div>
+          </div>
+        </div>
+
+
+        {/* Next features part */}
+
+        <div className="next features">
+          <div className="container">
+            <div className="item">    {/* left side */}
+
+              <h1>fiverr business</h1>
+              <h1>A business solution designed for teams</h1>
+              <p>Update to curated experienced packed with tools and benefits, dedicated to business</p>
+              <div className="title">
+                <img src='./img/check.png' alt=''/>
+                <p>Connect to freelance with proven business experience</p>
+              </div>
+              <div className="title">
+                <img src='./img/check.png' alt=''/>
+                <p>Get matched with the perfect talent by a customer success manager</p>
+              </div>
+              <div className="title">
+                <img src='./img/check.png' alt=''/>
+                <p>Manage teamwork and boost productivity with one powerful workspace</p>
+              </div>
+
+              <button>Explore Fiverr Business</button>
+            </div>
+
+            <div className="item"> {/**Right side */}
+              
+              <img src="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_870,dpr_1.0/v1/attachments/generic_asset/asset/f83cfb5f5b7cdfed1482b83c956bc561-1710925224537/lohp-pro.png" alt=''/>
 
             </div>
           </div>
