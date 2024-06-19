@@ -1,0 +1,67 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    color: #999;
+    margin: 30px 0px;
+
+    img {
+        width: 24px;
+        height: 24px;
+      }
+    .container{
+        width: 1200px;
+        .top{
+            display: flex;
+            justify-content: space-between;
+           .item{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+           
+                h2{
+                font-size: 16px;
+                color: rgb(71, 70, 70);
+                }
+            }
+        }
+
+        hr
+        {
+            margin: 30px 0px;
+            height: 0;
+            border: 1px solid rgb(202, 195, 195);
+        }
+        .bottom{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+            .left{
+                display: flex;
+                align-items: center;
+                gap:20px;
+                span{
+                    font-size: 13px;
+                }
+            }
+
+            .right{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                .socialmediaicon{
+                    display: flex;
+                    
+                    gap:20px ;
+                }
+
+                .link{
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+                }
+            }
+        }
+    }
+}
