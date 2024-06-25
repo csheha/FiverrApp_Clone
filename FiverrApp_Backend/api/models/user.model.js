@@ -24,6 +24,15 @@ const UserSchema = new Schema(
     required:false,
     },
 
+    country:{
+        type:String,
+        required:false,
+    },
+    phone:{
+        type:String,
+        required:false,
+    },
+
     desc:{
     type:String,
     required:false,

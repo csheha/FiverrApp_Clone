@@ -35,11 +35,7 @@ const ConversationSchema = new Schema(
         required:false,
     },
     
-    
-
-
-
-
+   
 
 },{
     timestamps:true
