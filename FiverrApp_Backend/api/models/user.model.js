@@ -38,7 +38,7 @@ const UserSchema = new Schema(
     required:false,
     },
 
-    isSellar:{
+    isSeller:{
     type:Boolean,
     required:false,    
     }
