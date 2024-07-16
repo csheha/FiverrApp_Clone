@@ -9,6 +9,7 @@ import Messages from './pages/messages/Messages'
 import Orders from './pages/orders/Orders'
 import MyGigs from './pages/mygigs/MyGigs'
 import Add from './pages/add/Add'
+import Login from './pages/login/Login'
 
 import {createBrowserRouter,RouterProvider,Outlet} from "react-router-dom";
 import Home from './pages/home/Home';
@@ -67,6 +68,10 @@ function App() {
         {                                     
           path:"/add",
           element:<Add/>
+        },
+        {                                     
+          path:"/login",
+          element:<Login/>
         },
        
       ]
